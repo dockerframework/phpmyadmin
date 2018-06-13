@@ -23,7 +23,7 @@ FROM php:${PHP_VERSION}-fpm-alpine${ALPINE_VERSION}
 
 MAINTAINER "Laradock Team <mahmoud@zalt.me>"
 
-ENV PHPMYADMIN_VERSION=4.8.0
+ENV PHPMYADMIN_VERSION=4.8.1
 ENV URL=https://files.phpmyadmin.net/phpMyAdmin/${PHPMYADMIN_VERSION}/phpMyAdmin-${PHPMYADMIN_VERSION}-all-languages.tar.gz
 LABEL version=$PHPMYADMIN_VERSION
 
