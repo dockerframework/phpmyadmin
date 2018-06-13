@@ -82,7 +82,7 @@ services:
     environment:
       - ALPINE_VERSION=3.7
       - PHP_VERSION=7.2.4
-      - PHPMYADMIN_VERSION=4.8.0
+      - PHPMYADMIN_VERSION=4.8.1
       - PMA_ARBITRARY=1
       - PMA_DB_ENGINE=mariadb
       - PMA_HOST=mariadb

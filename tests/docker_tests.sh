@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DOCKER_IMAGE="dockerframework/phpmyadmin"
-DOCKER_TAG="4.8"
+DOCKER_TAG="4.8.1"
 
 #### Halt script on error
 set -e
